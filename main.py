@@ -19,7 +19,7 @@ df = pd.read_csv('covid19_by_country.csv')
 
 dateCols = ['CountryAlpha3Code']
 
-ulke = input('Tahmin etmek istediğiniz ülke kodunu giriniz: ')
+ulke = input('Enter the country code: ')
 
 df = pd.read_csv("covid19_by_country.csv", parse_dates=dateCols)
 
